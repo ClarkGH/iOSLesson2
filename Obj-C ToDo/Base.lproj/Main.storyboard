@@ -43,7 +43,7 @@
         <!--To-Do List-->
         <scene sceneID="Utd-iv-vlx">
             <objects>
-                <tableViewController id="s5y-SD-lPN" sceneMemberID="viewController">
+                <tableViewController id="s5y-SD-lPN" customClass="ToDoListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8yl-X4-gm3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
