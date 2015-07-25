@@ -35,6 +35,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.toDoItems = [[NSMutableArray alloc] init];
+    [self loadInitialData];
 }
 
 - (void)didReceiveMemoryWarning {
