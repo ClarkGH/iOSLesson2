@@ -7,6 +7,7 @@
 //
 
 #import "ToDoListTableViewController.h"
+#import "ToDoItem.h"
 
 @interface ToDoListTableViewController ()
 
@@ -17,7 +18,14 @@
 @implementation ToDoListTableViewController
 
 - (void)loadInitialData {
+    ToDoItem *item1 = [[ToDoItem alloc] init];
+    item1.itemName = @"Become the Batman";
     
+    ToDoItem *item2 = [[ToDoItem alloc] init];
+    item2.itemName = @"Make Burritos";
+    
+    ToDoItem *item3 = [[ToDoItem alloc] init];
+    item3.itemName = @"Dance with Alfalfa";
 }
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue {
