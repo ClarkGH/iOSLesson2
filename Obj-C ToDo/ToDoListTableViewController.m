@@ -27,6 +27,10 @@
     
     ToDoItem *item3 = [[ToDoItem alloc] init];
     item3.itemName = @"Dance with Alfalfa";
+    
+    [self.toDoItems addObject:item1];
+    [self.toDoItems addObject:item2];
+    [self.toDoItems addObject:item3];
 }
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue {
