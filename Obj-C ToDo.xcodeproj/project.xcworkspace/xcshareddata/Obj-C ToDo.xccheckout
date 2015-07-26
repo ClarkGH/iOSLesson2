@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B089E02B-2D6F-4C62-8D73-A15EF9F0A9F7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Obj-C ToDo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>071234514099FC6DFA0C46D079C23EFA1AB88007</key>
 		<string>https://github.com/ClarkGH/iOSLesson2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Obj-C ToDo.xcodeproj/project.xcworkspace</string>
+	<string>Obj-C ToDo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>071234514099FC6DFA0C46D079C23EFA1AB88007</key>
